@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200&display=swap");
+body {
+  width: 100vw;
+  margin: 0;
+  background-color: #ffc0d3;
+}
+.bannar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 10px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+  background-color: aquamarine;
+  margin: 0;
+  padding: 15px;
+}
+#rzp-button1 {
+  height: 50px;
+  width: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ffc0d3;
+  border: none;
+  color: white;
+}
+
+#rzp-button1:hover {
+  cursor: pointer;
+  background-color: #ff5c8d;
+}
+h1 {
+  color: darkslateblue;
+  font-family: "Poppins", sans-serif;
+}
+h4 {
+  color: mediumpurple;
+  text-align: center;
+}
+h2 {
+  color: #ff5c8d;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact {
+  background-color: mediumpurple;
+  width: 100vw;
+  height: 300px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  grid-template-columns: auto auto auto;
+  column-gap: 40px;
+}
+input {
+  height: 40px;
+  width: 225px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: mediumpurple;
+  color: white;
+  row-gap: 10px;
+}
+#send {
+  height: 40px;
+  width: 225px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkslateblue;
+  color: white;
+}
+#send:hover {
+  background-color: #ff5c8d;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: whitered;
+}
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  color: #ff5c8d;
+  font-weight: bold;
+}
+.hover:hover {
+  color: darkslateblue;
+}
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.scroll {
+  height: 300px;
+  width: 100vh;
+  margin: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.footer {
+  display: flex;
+  align-content: center;
+  background-color: #370665;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+}
+.fa {
+  margin: 8px;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+}
+
+.scroll:hover{
+
+}
